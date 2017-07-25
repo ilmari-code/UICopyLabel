@@ -1,8 +1,7 @@
 # UICopyLabel
 实现复制粘贴剪切功能的UICopyLabel
-```听说可以用Markdown语法
 导入文件到项目中，导入UICopyLabel.h头文件，就可以用UICopyLabel实例化就能用了
-```
+
 01.创建继承自UILabel的 UICopyLabel。
 02.当前使用的是系统自带的复制功能。如果要实现自定义按钮功能，打开注释掉的代码就可以了。如果项目有需求，也可以自定义实现其他需要的功能。
 
