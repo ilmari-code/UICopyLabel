@@ -76,7 +76,6 @@
  {
      UIPasteboard *pasteBoard = [UIPasteboard generalPasteboard];
      self.text = pasteBoard.string;
-     NSLog(@"%s %@", __func__, menu);
      }
 - (void)customCopy:(id)sender {
     UIPasteboard *pasteBoard = [UIPasteboard generalPasteboard];
